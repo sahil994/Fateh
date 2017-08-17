@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fateh App</string>
+    <string name="countrycode">+91</string>
+    <string name="enterMobile">Enter Mobile Number</string>
+    <string name="enterVerificationCode">Enter 4-digit Verification Code</string>
+
+</resources>

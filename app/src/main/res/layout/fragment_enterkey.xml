@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tvText"
+        android:text="@string/enterVerificationCode" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/tvText"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/etOne"
+            android:layout_width="40dp"
+            android:inputType="number"
+
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etTwo"
+            android:inputType="number"
+            android:layout_width="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etThree"
+            android:inputType="number"
+            android:layout_width="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etFour"
+            android:inputType="number"
+            android:layout_width="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+
+        android:src="@drawable/ic_arrow_forward_white_36dp"
+        app:backgroundTint="@color/colorPrimaryDark" />
+
+
+
+
+</RelativeLayout>
